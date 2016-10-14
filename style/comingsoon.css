@@ -31,6 +31,8 @@ body, html {
     min-height: 100%;
     margin: 0;
     font-size: 12pt;
+    overflow: visible;
+    background: #232638;
 }
 
 h1, h2, h3,
@@ -45,8 +47,10 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25em;
-    font-weight: 100;
+    font-size: 2em;
+    /*font-weight: 300;*/
+    text-align: center;
+    color: #ffffff;
 }
 
 p {
@@ -60,16 +64,80 @@ p {
  */
 .pure-g {
     padding: 0 1em 0 3em;
+    margin-bottom: 5%;
 }
 
 .pure-g > div {
 
 }
 
+#container {
+    position: fixed;
+    overflow: visible;
+    z-index: 0;
+    background: #2b2c31;
+}
+
+.pure-img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+.img-left {
+    width: 56%;
+    float: left;
+}
+
+.img-right {
+    width: 43%;
+    float: right;
+}
+
+.img-techno {
+    max-width: 42%;
+    padding-top: 14%;
+    display: block;
+}
+.img-corner {
+    max-width: 42%;
+    display:block;
+}
+.img-2017 {
+    max-width: 35%
+}
+
+.slogan {
+    font-family: 'OpenSans Light', sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+    padding-left: 10%;
+    color: white;
+}
+
 /* responsive mode */
 @media screen and (max-width: 780px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    .section {
+        height: auto !important;
+        /*padding-bottom: 56px;*/
+        margin-left: -4%;
+    }
+
+    .section#excerpt {
+        height: auto !important;
+        /*padding-bottom: 56px;*/
+        margin-left: -6%;
+    }
+
     .pure-g {
         letter-spacing: -0.05em;
+        margin-bottom: 0%;
+        /*margin-top: -50px;*/
     }
     .l-box {
         width: 100% !important;
@@ -77,12 +145,65 @@ p {
     .j-box {
         padding: 1em;
     }
+
+    #container {
+        position: fixed;
+        overflow: visible;
+        z-index: 0;
+        background: #2b2c31;
+    }
+
+    .pure-img {
+        max-width: 80%;
+        height: auto;
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .img-left {
+        width: 100%;
+    }
+
+    .img-right {
+        width: 100%;
+    }
+
+    .img-techno {
+        max-width: 35%;
+        padding-top: 1%;
+        display: inline;
+        margin: 0 auto;
+        margin-left: 13%
+
+    }
+    .img-corner {
+        max-width: 35%;
+        display: inline;
+        margin: 0 auto;
+        /*margin-top: -15px;*/
+    }
+    .img-2017 {
+        max-width: 65%;
+        display: block;
+        margin: 0 auto;
+        /*margin-top: -15px;*/
+        padding-left: 18%;
+    }
+    
+    .slogan {
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: -13%;
+    }
 }
 
 /*
  * fullPage Style
  */
 .section {
+    z-index: 99;
     padding: 0 40px 0 10px;
 }
 .fp-controlArrow {
@@ -110,12 +231,7 @@ p {
     background: none repeat scroll 0% 0% #f88637  !important;
 }
 
-@media screen and (max-width: 640px) {
-    .section {
-        height: auto !important;
-        padding-bottom: 56px;
-    }
-}
+
 
 
 /* Section Style */
@@ -127,11 +243,11 @@ p {
 #landing img {
     margin: 0 auto;
     display: block;
-    width: 900px;
+    /*width: 900px;*/
 }
 
 #excerpt {
-    background-image: url('../img/background-lf.jpg');
+    background-image: url('../img/photo/lf14-1.jpg');
     background-size: cover;
     background-color: #ed6333;
     text-align: center;
@@ -147,6 +263,7 @@ p {
     background-size: cover;
     color: white;
     text-align: center;
+    margin-left: 0%;
 }
 
 #tag-closing h1 {
@@ -174,12 +291,6 @@ p {
 #tag-closing p {
     font-size: 1.5em;
     font-style: bolder;
-}
-
-.slogan {
-    font-family: 'OpenSans Light', sans-serif;
-    font-style: italic;
-    font-size: 1.2em;
 }
 
 .logo-closing {
@@ -245,6 +356,7 @@ p {
     }
     h2 {
         font-size: 1.1em;
+        text-align: center;
     }
     .section {
         padding : 50px 0 50px 0;
