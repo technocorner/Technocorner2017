@@ -112,7 +112,7 @@ p {
     font-family: 'OpenSans Light', sans-serif;
     font-style: italic;
     font-size: 1.2em;
-    padding-left: 10%;
+    padding-left: 5%;
     color: white;
 }
 
@@ -259,7 +259,7 @@ p {
 .slide#nextevent {}
 
 #closing {
-    background-image: url("../img/comingsoon/official-texture-blurred.jpg");
+    background-image: url("../img/comingsoon/background-contact.jpg");
     background-size: cover;
     color: white;
     text-align: center;
@@ -342,6 +342,9 @@ p {
 }
 #sos-left {
     text-align: right;
+}
+#sos-center {
+    text-align: center;
 }
 
 /*
