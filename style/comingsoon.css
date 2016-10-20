@@ -111,8 +111,8 @@ p {
 .slogan {
     font-family: 'OpenSans Light', sans-serif;
     font-style: italic;
-    font-size: 1.2em;
-    padding-left: 5%;
+    font-size: 1.5em;
+    /*padding-left: 5%;*/
     color: white;
 }
 
