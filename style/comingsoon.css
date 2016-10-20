@@ -224,12 +224,12 @@ p {
 }
 
 .fp-slidesNav ul li a span {
-    border: 1px solid #832c43 !important;
+    border: 1px solid #ffffff!important;
     background: none repeat scroll 0% 0% transparent;
 }
 
 .fp-slidesNav ul li a.active span {
-    background: none repeat scroll 0% 0% #f88637  !important;
+    background: none repeat scroll 0% 0% #ffffff  !important;
 }
 
 
@@ -248,9 +248,8 @@ p {
 }
 
 #excerpt {
-    background-image: url('../img/Background-2.png');
     background-size: cover;
-    background-color: #ed6333;
+    background-color: #2b2c31;
     text-align: center;
     color: #f0f0f0;
 }
