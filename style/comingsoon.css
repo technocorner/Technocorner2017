@@ -65,6 +65,7 @@ p {
 .pure-g {
     padding: 0 1em 0 3em;
     margin-bottom: 5%;
+    letter-spacing: 0;
 }
 
 .pure-g > div {
