@@ -248,7 +248,7 @@ p {
 }
 
 #excerpt {
-    background-image: url('../img/photo/lf14-1.jpg');
+    background-image: url('../img/Background-2.png');
     background-size: cover;
     background-color: #ed6333;
     text-align: center;
@@ -276,11 +276,11 @@ p {
 }
 
 .title {
-    color: #832c43;
+    color: #ffffff;
 }
 
 .overlay {
-    background-color: rgba(131, 44, 67, 0.7);
+    background-color: rgba(100, 161, 190, 0.3);
     /* text-shadow: 1px 1px #333; */
     padding: 0.5em 1em;
 }
