@@ -249,7 +249,7 @@ p {
 
 #excerpt {
     background-size: cover;
-    background-color: #2b2c31;
+    background-color: rgba(43, 44, 49, 0.86);
     text-align: center;
     color: #f0f0f0;
 }
