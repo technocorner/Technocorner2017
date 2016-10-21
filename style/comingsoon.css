@@ -65,6 +65,7 @@ p {
 .pure-g {
     padding: 0 1em 0 3em;
     margin-bottom: 5%;
+    letter-spacing: 0;
 }
 
 .pure-g > div {
@@ -111,8 +112,8 @@ p {
 .slogan {
     font-family: 'OpenSans Light', sans-serif;
     font-style: italic;
-    font-size: 1.2em;
-    padding-left: 5%;
+    font-size: 1.5em;
+    /*padding-left: 5%;*/
     color: white;
 }
 
@@ -223,12 +224,12 @@ p {
 }
 
 .fp-slidesNav ul li a span {
-    border: 1px solid #832c43 !important;
+    border: 1px solid #ffffff!important;
     background: none repeat scroll 0% 0% transparent;
 }
 
 .fp-slidesNav ul li a.active span {
-    background: none repeat scroll 0% 0% #f88637  !important;
+    background: none repeat scroll 0% 0% #ffffff  !important;
 }
 
 
@@ -247,9 +248,8 @@ p {
 }
 
 #excerpt {
-    background-image: url('../img/photo/lf14-1.jpg');
     background-size: cover;
-    background-color: #ed6333;
+    background-color: #2b2c31;
     text-align: center;
     color: #f0f0f0;
 }
@@ -275,11 +275,11 @@ p {
 }
 
 .title {
-    color: #832c43;
+    color: #ffffff;
 }
 
 .overlay {
-    background-color: rgba(131, 44, 67, 0.7);
+    background-color: rgba(100, 161, 190, 0.3);
     /* text-shadow: 1px 1px #333; */
     padding: 0.5em 1em;
 }
