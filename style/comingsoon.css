@@ -349,6 +349,7 @@ p {
 	transition: ease 300ms;
 }
 
+}
 #sos-right {
     text-align: left;
 }
@@ -358,6 +359,7 @@ p {
 #sos-center {
     text-align: center;
 }
+
 
 /*
  * Small mobile Style
