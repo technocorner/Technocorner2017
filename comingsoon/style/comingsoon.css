@@ -210,6 +210,14 @@ p {
     #sos-right {
     text-align: left !important;
     }
+
+    #closing {
+        background-image: url("../img/comingsoon/background-footer2.jpg") !important;
+    }
+
+    .powered {
+        margin-top: 70px;
+    }
 }
 
 /*
@@ -360,6 +368,14 @@ p {
     text-align: center;
 }
 
+.powered-text {
+    font-family: 'OpenSans Light', sans-serif;
+}
+
+.powered-img {
+    max-width: 130px;
+    margin-bottom: -4px;
+}
 
 /*
  * Small mobile Style
