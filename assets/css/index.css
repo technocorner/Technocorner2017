@@ -1,0 +1,140 @@
+/*
+ * Pure Style
+ */
+.section .pure-g {
+    padding: 1em 1em 1em 3em;
+}
+
+/* responsive mode */
+@media screen and (max-width: 768px) {
+    .section .pure-g {
+        padding: 1em 1em 1em 1em;
+    }
+
+    .pure-g {
+        letter-spacing: -0.05em;
+    }
+
+    .l-box {
+        width: 100% !important;
+    }
+
+    .j-box {
+        padding: 1em;
+    }
+}
+
+/*
+ * fullPage Style
+ */
+.section {
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .section {
+        height: auto !important;
+    }
+
+    .fp-slide, .fp-slidesContainer {
+        height: 900px;
+        display: block;
+    }
+}
+
+
+/*
+ * Section Style
+ */
+/* Landing */
+#landing {
+    background-size: 100% 100%;
+    border-bottom: 2px dotted rgb(237, 99, 51);
+    margin-top: 70px;
+}
+
+#landing img {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Video */
+#bideo {
+    background-color: #323232;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+/* Quote Strip */
+#quote {
+    padding: 10px 20px 30px 20px;
+    color: white;
+}
+
+#quote blockquote {
+    font: italic 1.2em/1.6em Georgia, "Times New Roman", Times, serif;
+    background: url(../img/quote-close.png) no-repeat right bottom;
+    padding-left: 0px;
+    text-indent: -18px;
+}
+
+
+/*
+ * Small mobile Style
+ */
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+        font-weight: 300;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+
+    .slogan {
+        font-size: 1em
+    }
+
+    .news-scrollbar {
+        height: auto;
+    }
+
+    .mobile-slide {
+        padding-top: 50px;
+    }
+
+    #landing {
+        min-width: 100%
+
+    }
+
+    #landing img {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+
+    #event-list {
+        display: none;
+    }
+
+    .video-frame {
+        width: 80vw;
+    }
+
+    #closing {
+        min-width: 100%;
+    }
+
+    .sos-kanan {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .sos-kiri {
+        text-align: center;
+        padding: 5px;
+    }
+}
