@@ -8,8 +8,12 @@
                     width = carousel.innerWidth();
 
                 if (width >= 600) {
-                    width = width / 6;
+                    width = width / 7;
                 } else if (width >= 340) {
+                    width = width / 4;
+                } else if (width < 340) {
+                    width = width / 3;
+                } else if (width >= 40) {
                     width = width / 3;
                 }
 
@@ -36,7 +40,7 @@
                 e.preventDefault();
             })
             .jcarouselPagination({
-                perPage: 1,
+                perPage: 2,
                 item: function(page) {
                     return '<a href="#' + page + '">' + page + '</a>';
                 }

@@ -16,7 +16,7 @@
 }
 
 .p-overlay {
-    background-color: rgba(0, 188, 212, 0.9);
+    background-color: rgba(177, 160, 13, 0.6);
 }
 
 
@@ -36,7 +36,6 @@
 .home-title span,
 .about-subtitle,
 .person-about > a.btn-large,
-.about-social ul li a i,
 .skill-title,
 .skill-count,
 .single-widget ul li a,
@@ -45,6 +44,9 @@
 .com-title a,
 span.num {
     color: #00bcd4;
+}
+.about-social ul li a i{
+    color: #1e4f81
 }
 
 .singel-hr-inner,

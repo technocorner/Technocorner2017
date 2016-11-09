@@ -1103,7 +1103,7 @@ header.nav.hide-menu {
 
 .modal .model-img {
     padding: 5px 5px 0 5px;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 
 .modal .model-img img {
@@ -1117,6 +1117,7 @@ header.nav.hide-menu {
     margin-bottom: 15px;
 }
 .modal .modal-content {
+  display: none;
     padding: 0 20px 30px;
     border-bottom: 1px solid #eeeeee;
 

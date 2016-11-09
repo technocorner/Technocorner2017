@@ -274,7 +274,7 @@ TOC :
     }
 
     .about-wrap {
-        padding: 30px 0;
+        padding-top: 30px;
     }
 
     .person-img img {
@@ -292,7 +292,7 @@ TOC :
     }
 
     .portfolio-top {
-        padding-top: 80px;
+        /*padding-top: 80px;*/
         padding-bottom: 15px;
     }
 
@@ -416,9 +416,9 @@ TOC :
 
     .protfolio-item li {
         float: left;
-        margin-right: 0;
-        margin-bottom: 20px;
-        width: 100%;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        width: 47%;
     }
 
     .portfolio-category li {

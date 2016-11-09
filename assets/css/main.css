@@ -25,7 +25,7 @@
     background-color: rgba(19, 19, 19, 0.48);
     position: absolute;
     margin: 0em 0 0 0em;
-    padding: 0em 0 0 0;
+    padding: 0 11px 0 11px;
     transition: 300ms;
 }
 .submenu-item {
@@ -283,7 +283,7 @@ canvas {
     background-size: cover;
 }
 .section .pure-g {
-    padding: 6em 1em 1em 3em;
+    padding: 8em 1em 1em 2em;
 }
 
 /*END Event Slider*/
@@ -318,7 +318,8 @@ canvas {
     transition: 0.25s all linear;
 }
 .margin-footer{
-    display: table;   
+    display: table;
+    margin-bottom: 10px;
 }
 .wrapper {
     margin: 0 auto;
@@ -882,11 +883,6 @@ bottom: -12px;
 }
 
 @media screen and (max-width: 640px) {
-    .section {
-        height: auto !important;
-        /*padding-bottom: 56px;*/
-        margin-left: -4%;
-    }
 
     .section#excerpt {
         height: auto !important;
@@ -979,10 +975,19 @@ bottom: -12px;
 
     }
     .color-line-text {
-        font-size: 20px;
+        font-size: 15px;
     }
     .submenu-list {
         margin: -3em -260px 0 0em;
+    }
+    .color-line-button a {
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    #excerpt p {
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 1.4;
     }
 
 }
@@ -1007,8 +1012,16 @@ bottom: -12px;
  */
 @media screen and (max-width: 490px) {
     .about-tc {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.5;
+    text-align: center;
+    }
+    .about-social {
+        margin: 25px 0 0;
+        text-align: center;
+    }
+    .about-social ul li {
+        margin-right: 5px;
     }
 
     .news-item {
@@ -1039,6 +1052,14 @@ bottom: -12px;
         text-align: left;
         transition: 300ms;
         border-bottom: 1px #fff;
+    }
+    .profile-inner {
+        /*height: 69% !important;*/
+        padding: 20px 20px 0 20px;
+
+    }
+    .mobile-profile {
+        min-height: 110px !important;
     }
 
 }
@@ -1097,8 +1118,11 @@ bottom: -12px;
         width: 100%;
     }
     .fp-slide, .fp-slidesContainer {
-        height: 900px;
+        height: 700px;
         display: block;
+    }
+    .section .pure-g {
+        padding: 7em 1em 1em;
     }
 
 }
