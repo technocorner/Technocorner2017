@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
   <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
   <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/jcarousel.responsive.css" media="screen,projection" />
     <link rel="stylesheet" href="assets/libs/jquery.jscrollpane/style/jquery.jscrollpane.css" />
     <link rel="stylesheet" href="assets/libs/jquery.jscrollpane/theme/technocorner/style/jquery.jscrollpane.technocorner.css" />
 <!-- Custom CSS -->
@@ -196,7 +197,7 @@
             </div>
             <!-- about me info -->
 
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6" style="max-height: 600px;">
               <!-- # Ini adalah bagian news -->
               <div class="section dark nav-anchor" id="news" anchor="news">
                 <div class="pure-g1">
@@ -307,6 +308,8 @@
           </div>
         </div>
       </div>
+          <div class="linespace">&nbsp;</div>
+
       <!-- .container end -->
     </section>
     <!-- #about Section end -->
@@ -538,6 +541,30 @@
     </section>
     <!-- #portfolio Section end -->
 
+      <div class="container marg50">
+        <div class="row">
+          <div class="col-lg-12 marg10">
+            <div class="jcarousel-wrapper">
+              <div class="jcarousel">
+                <ul>
+                  <li><a ><img src="images/client-1.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-2.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-3.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-5.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-6.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-4.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-1.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-2.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-3.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-5.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-6.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-4.jpg" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Contact Section end -->
     <section id="contact" class="scroll-section root-sec">
@@ -563,7 +590,7 @@
      <div class="footer">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 margin-footer">
+            <!-- <div class="col-lg-3 col-md-3 col-sm-3 margin-footer">
               <div class="footer-widget">
                 <div class="footer-title">Some Info</div>
                 <div class="text_footer">
@@ -578,19 +605,19 @@
                   <li><a href="#"><i class="ti-instagram"></i></a></li>
                 </ul>
               </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 margin-footer">
+            </div> -->
+            <div class="col-lg-4 col-md-4 col-sm-4 margin-footer">
               <div class="footer-widget">
                 <div class="footer-title">Our Contacts</div>
                 <ul class="contact-footer contact-composer">
-                  <li><i class="pe-7s-home"></i> <span>Adress: 455 Martinson, Los Angeles</span></li>
-                  <li><i class="pe-7s-call"></i> <span>Phone: 8 (043) 567 - 89 - 30</span></li>
-                  <li><i class="pe-7s-mail"></i> <span>E-mail: support@email.com</span></li>
-                  <li><i class="pe-7s-lock"></i> <span>Weekend: from 9 am to 6 pm</span></li>
+                  <li><i class="pe-7s-home"></i> <span>Jalan Grafika No. 2 Yogyakarta 55281</span></li>
+                  <li><i class="pe-7s-call"></i> <span>085643xxxxxx (Adisakti Wibowo)</span></li>
+                  <li><i class="pe-7s-mail"></i> <span>support@technocornerugm.com</span></li>
+                  <!-- <li><i class="pe-7s-lock"></i> <span>Weekend: from 9 am to 6 pm</span></li> -->
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 margin-footer">
+            <div class="col-lg-4 col-md-4 col-sm-4 margin-footer">
               <div class="footer-widget">
                 <div class="footer-title">Tags Cloud</div>
                 <div class="tagcloud">
@@ -609,10 +636,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3" id="flickr">
+            <div class="col-lg-4 col-md-4 col-sm-4" id="flickr">
               <div class="footer-widget">
-                <div class="footer-title">Flickr Widget</div>
-                <div class="flickr_widget_wrapper"><script src="http://www.flickr.com/badge_code_v2.gne?count=8&display=latest&size=s&layout=x&source=user&user=52617155@N08"></script></div>
+                <div class="footer-title">Instagram</div>
+                <div class="flickr_widget_wrapper"><!-- <script src="http://www.flickr.com/badge_code_v2.gne?count=8&display=latest&size=s&layout=x&source=user&user=52617155@N08"></script> -->
+                  <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a7a014647bda56258d46ba5aa31907d3.html" id="lightwidget_a7a014647b" name="lightwidget_a7a014647b"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -680,6 +709,8 @@
   <script src="assets/libs/materialize/js/materialize.min.js"></script>
   <script src="assets/libs/jwplayer/jwplayer.js"></script>
   <script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+  <script type="text/javascript" src="assets/js/jcarousel.responsive.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.jcarousel.min.js"></script>
   <!-- <script type="text/javascript" src="assets/js/bootstrap.min.js"></script> -->
   <script src="assets/js/common.js"></script>
   <script src="assets/js/main.js"></script>
@@ -704,18 +735,6 @@
         });
         }
   </script>
-<!--   <script type="text/javascript">
-        if ($(window).width() < 960) {
-          $(function () {
-            $('.event-expand').click(function () {
-              $('.submenu-list').css('display', 'table');
-              $(this).on("click", function () {
-                $('.submenu-list').css('display', 'none');
-              });
-            });
-          });
-        }
-  </script> -->
   <script type="text/javascript">
     $(document).ready(function()
     {

@@ -951,7 +951,7 @@ header.nav.hide-menu {
  ----------------------------------- */
 
 .portfolio-wrap {
-    padding-bottom: 120px;
+    padding-bottom: 25px;
 }
 
 .portfolio-top {
@@ -990,7 +990,7 @@ header.nav.hide-menu {
 }
 
 .protfolio-item {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .protfolio-item li {
     float: left;

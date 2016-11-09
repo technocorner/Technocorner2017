@@ -127,8 +127,7 @@ canvas {
 
 /*CSS NEWS*/
 .news-black{
-  background-color: rgb(37, 37, 37);
-  padding-top: 55px;
+  background-color: rgba(37, 37, 37, 0.73);
 }
 
 #news {
@@ -1102,4 +1101,12 @@ bottom: -12px;
         display: block;
     }
 
+}
+
+.marg10{
+    margin : 10px 0 10px 0;
+}
+.linespace{
+    line-height: 55px;
+    background: #1e4f81;
 }
