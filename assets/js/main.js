@@ -1,5 +1,6 @@
 $(document).ready(function() {
     /* Load fullpage-js, for more info see fullpage-js doc */
+    
     $('#fullpage').fullpage({
         autoScrolling: false,
         navigation: false,

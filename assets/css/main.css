@@ -127,7 +127,7 @@ canvas {
 
 /*CSS NEWS*/
 .news-black{
-  background-color: rgba(37, 37, 37, 0.73);
+  background-color: rgb(88, 88, 88);
 }
 
 #news {
@@ -248,26 +248,6 @@ canvas {
     font-weight: bold;
 }
 
-#subevent-lfc {
-    background-image: url('../img/background-lf.jpg');
-}
-
-#subevent-sdc {
-    background-image: url('../img/background-sdc.jpg');
-}
-
-#subevent-eec {
-    background-image: url('../img/background-eec.jpg');
-}
-
-#subevent-expo {
-    background-image: url('../img/background-expo.jpg');
-}
-
-#subevent-semnas {
-    background-image: url('../img/background-semnas.jpg');
-}
-
 .text-of-interest {
     font-size: 2em;
 }
@@ -288,6 +268,11 @@ canvas {
 
 /*END Event Slider*/
 
+/*sponsors*/
+.sponsors{
+    background-color: #fff;
+}
+/*End sponsors*/
 
 /*CSS Footer*/
 .color-line {
@@ -1128,9 +1113,36 @@ bottom: -12px;
 }
 
 .marg10{
-    margin : 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    background: #dedede;
 }
 .linespace{
     line-height: 55px;
     background: #1e4f81;
 }
+
+
+/*Pages*/
+#content{
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+.ui.attached.segment {
+    border: 1px solid #434344;
+}
+.ui.segment {
+    background: #333333;
+}
+.ui.tabular.menu .item:hover {
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.2);
+}
+.ui.link.menu .item:hover, .ui.menu .dropdown.item:hover, .ui.menu .link.item:hover, .ui.menu a.item:hover {
+    color: rgba(255, 255, 255, 0.95);
+}
+.ui.tabular.menu .item {
+    color: rgba(255, 255, 255, 0.87);
+    background: #1e4f81;
+}
+/*End Pages*/
