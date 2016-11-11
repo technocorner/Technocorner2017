@@ -127,7 +127,7 @@ canvas {
 
 /*CSS NEWS*/
 .news-black{
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(33, 33, 37);
 }
 
 #news {
@@ -268,11 +268,7 @@ canvas {
 
 /*END Event Slider*/
 
-/*sponsors*/
-.sponsors{
-    background-color: #fff;
-}
-/*End sponsors*/
+
 
 /*CSS Footer*/
 .color-line {
@@ -1111,16 +1107,30 @@ bottom: -12px;
     }
 
 }
-
+/*sponsors*/
+.sponsors{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    /*background-color: : rgba(33, 33, 37, 0.65);*/
+}
+.sponsors-bg{
+    background-color: rgba(33, 33, 37, 0.90);
+}
+/*End sponsors*/
 .marg10{
     padding: 10px 0 10px 0;
-    background: #dedede;
+    text-align: center;
+    /*background: rgba(33, 33, 37, 0.65);*/
 }
 .linespace{
-    line-height: 55px;
-    background: #1e4f81;
+    line-height: 25px;
+    background: rgb(30, 79, 129);
 }
-
+.sponsors-marg{
+    /*margin-right: 50px;*/
+    /*margin-left: 50px;*/
+}
 
 /*Pages*/
 #content{

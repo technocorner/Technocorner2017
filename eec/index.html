@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Technocorner 2017</title>
+  <title>EEC Electrical Engineering Competition - Technocorner 2017</title>
   <meta name="description" content="">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
@@ -21,7 +21,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#212125">
 
   <!-- Favicon-->
-  <link rel="shortcut icon" href="../images/favicon.png" >
+  <link rel="shortcut icon" href="../images/favicon.ico" >
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" />
@@ -32,18 +32,19 @@
   <link rel="stylesheet" href="../assets/css/bootstrap.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/css/animate.min.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
-  <link rel="stylesheet" href="../assets/libs/jquery.fullpage/jquery.fullPage.css" />
+  <!-- <link rel="stylesheet" href="../assets/libs/jquery.fullpage/jquery.fullPage.css" /> -->
   <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/css/jcarousel.responsive.css" media="screen,projection" />
-    <link rel="stylesheet" href="../assets/libs/jquery.jscrollpane/style/jquery.jscrollpane.css" />
-    <link rel="stylesheet" href="../assets/libs/jquery.jscrollpane/theme/technocorner/style/jquery.jscrollpane.technocorner.css" />
+    <!-- <link rel="stylesheet" href="../assets/libs/jquery.jscrollpane/style/jquery.jscrollpane.css" /> -->
+    <!-- <link rel="stylesheet" href="../assets/libs/jquery.jscrollpane/theme/technocorner/style/jquery.jscrollpane.technocorner.css" /> -->
   
 <!-- Custom CSS -->
   <!-- <link rel="stylesheet" href="assets/css/index.css"> -->
   <link rel="stylesheet" href="../assets/css/main2.css">
   <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/event.css">
 
   <link rel="stylesheet" href="../assets/css/responsive.css">
 
@@ -55,21 +56,16 @@
   <![endif]-->
 </head>
 
-<body>
-  <section>
-    <!-- <div id="fullpage"> -->
-    <div id="container"></div>
-    <!-- </div> -->
-  </section>
-<!-- <div id="fullpage"> -->
+<body style="background-color: rgb(33, 33, 37)">
+
   <!-- Preloader --> 
-    <!-- <div id="preloader">
+    <div id="preloader">
       <div class="loader">
             <svg class="circle-loader" height="50" width="50">
               <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
             </svg>
         </div>    
-    </div> -->
+    </div>
     <!--preloader end-->
 
   <!-- Main Container -->
@@ -100,15 +96,17 @@
                     </li><!-- mini profile end-->
 
 
+                    <li><a href=".." class="menu-nav"><i class="fa fa-user fa-fw"></i>Home</a>
+                    </li>
                     <li><a href="#about" data-section="#about" class="menu-smooth-scroll menu-nav"><i class="fa fa-user fa-fw"></i>About</a>
                     </li>
                     <li><a href="#event" id="event-hover" data-section="#event" class="event-item menu-nav menu-smooth-scroll"><i class="fa fa-code fa-fw"></i>Event <a class="tombol-event"><i class="event-expand fa fa-bars fa-fw"></i></a></a>
                       <ul class="submenu-list subevent" id="event-list">
-                        <a href="semnas/index.html"><li class="submenu-item ns">National Seminar<span class="label"></span></li></a>
-                        <a href="expo/index.html"><li class="submenu-item expo">Techno Expo</li></a>
-                        <a href="sdc/index.html"><li class="submenu-item sdc">Software Development Competition</li></a>
-                        <a href="eec/index.html"><li class="submenu-item eec">Electrical Engineering Competition</li></a>
-                        <a href="lfc/index.html"><li class="submenu-item lfc">Line Follower Competition</li></a>
+                        <a href="../semnas/index.html"><li class="submenu-item ns">National Seminar<span class="label"></span></li></a>
+                        <a href="../expo/index.html"><li class="submenu-item expo">Techno Expo</li></a>
+                        <a href="../sdc/index.html"><li class="submenu-item sdc">Software Development Competition</li></a>
+                        <a href="../eec/index.html"><li class="submenu-item eec">Electrical Engineering Competition</li></a>
+                        <a href="../lfc/index.html"><li class="submenu-item lfc">Line Follower Competition</li></a>
                       </ul>
                     </li>
                     <li><a href="#gallery" data-section="#gallery" class="menu-smooth-scroll menu-nav"><i class="fa fa-briefcase fa-fw"></i>Gallery</a>
@@ -129,23 +127,14 @@
     <!-- Home Section start -->
     <section id="home" class="scroll-section root-sec lighten-5 home-wrap">
       <div class="sec-overlay">
-        <div class="container">
+        <div class="sponsors">
           <div class="row">
             <div class="col-sm-12">
-              <div class="home-inner">
-                <div class="center-align home-content">
-                  <p class="present">KMTETI FT UGM proudly present</p>
-                    <div class="img-left">
-                      <img src="../images/pure-logo.png" alt="logo technocorner 2017" class="pure-img">
-                    </div>
-                    <div class="img-right">
-                      <img src="../images/techno.png" class="img-techno">
-                      <img src="../images/corner.png" class="img-corner">
-                      <img src="../images/2017.png" class="img-2017"><br>
-                    </div>
-                    <span class="slogan">"Elevating The Next"</span>
-                 </div>
-               </div>
+              <header class="major">
+              <h2>EEC</h2>
+              <p>Electrical Engineering Competition</p>
+              <a href="#" class="image fit"><img src="../images/event-eec-wide.jpg" alt="" /></a>
+            </header>
             </div>
           </div>
         </div>
@@ -153,7 +142,7 @@
         <div class="section-call-to-area">
           <div class="container">
             <div class="row">
-              <a href="#about" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#about">
+              <a href="#content" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#content">
                 <i class="mdi-navigation-expand-more"></i>
               </a>
             </div>
@@ -363,31 +352,6 @@
     </section>
     <!-- #portfolio Section end -->
 
-      <div class="marg50">
-        <div class="row">
-          <div class="col-lg-12 marg10" style="background: rgba(222, 222, 222, 0);">
-            <div class="jcarousel-wrapper">
-              <div class="jcarousel">
-                <ul>
-                  <li><a ><img src="../images/client-1.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-2.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-3.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-5.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-6.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-4.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-1.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-2.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-3.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-5.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-6.jpg" alt=""></a></li>
-                  <li><a ><img src="../images/client-4.jpg" alt=""></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     <!-- Contact Section end -->
     <section id="contact" class="scroll-section root-sec">
       <div class="color-line">
@@ -522,9 +486,9 @@
   <script src="../assets/js/main.js"></script>
   <script src="../assets/libs/jquery-address/src/jquery.address.js"></script>
   <!-- <script src="../assets/libs/jquery.jscrollpane/script/jquery.jscrollpane.min.js"></script> -->
-  <script src="../assets/libs/fragmented-mesh-js/RequestAnimationFrame.js"></script>
+<!--   <script src="../assets/libs/fragmented-mesh-js/RequestAnimationFrame.js"></script>
   <script src="../assets/libs/fragmented-mesh-js/ThreeWebGL.js"></script>
-  <script src="../assets/libs/fragmented-mesh-js/fragments.js"></script>
+  <script src="../assets/libs/fragmented-mesh-js/fragments.js"></script> -->
   <script type="text/javascript">
     $('.tabmenu .item')
     .tab({

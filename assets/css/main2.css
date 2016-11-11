@@ -952,8 +952,8 @@ header.nav.hide-menu {
 
 .portfolio-wrap {
     padding-bottom: 25px;
-    background: #dedede;
-}
+    background: rgba(33, 33, 37, 0.90);
+  }
 
 .portfolio-top {
     padding-bottom: 3px;
