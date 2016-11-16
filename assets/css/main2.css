@@ -997,7 +997,7 @@ header.nav.hide-menu {
 }
 .protfolio-item li {
     float: left;
-    width: 33%;
+    width: 24.5%;
     margin-right: .33%;
     margin-bottom: .33%;
 }
@@ -1101,7 +1101,8 @@ header.nav.hide-menu {
 .portfolio-wrap .modal {
     padding: 0;
     max-height : 85%;
-    width: 550px;
+    width: 750px;
+    background-color: rgba(255, 255, 255, 0) !important;
 }
 
 .modal .model-img {

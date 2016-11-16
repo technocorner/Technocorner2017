@@ -617,6 +617,7 @@ $(window).load(function(){
 		// init Isotope
 		var loading = 0;
 		var portfolioMsnry = $('#protfolio-msnry').isotope({
+			// filter: '.category-1',
 			itemSelector: '.single-port-item',
 			layoutMode: 'fitRows'
 		});
