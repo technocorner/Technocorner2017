@@ -61,6 +61,18 @@ html {
     text-shadow: none;
 }
 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #039be5;
+}
 
 audio,
 canvas,
@@ -161,7 +173,7 @@ body {
 }
 
 #preloader {
-  background: none repeat scroll 0 0 #fff;
+  background: none repeat scroll 0 0 #333;
   display: block;
   height: 100vh;
   overflow: hidden;

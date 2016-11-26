@@ -1,349 +1,575 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
-    <title>Electrical Enginering Competition 2017</title>
-    <meta content="Bagian dari Technocorner" name="description">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
-    <link href="assets/images/favicon.png" rel="shortcut icon"/>
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144x144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114x114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72x72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-precomposed.png" />
-    <!-- JS FILES -->
-    <script type="text/javascript" src="assets/js/jquery-1.12.0.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- CSS FILES -->
-    <link href="assets/css/flexslider.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="assets/css/style.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="assets/css/responsive.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="assets/css/prettyphoto.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="assets/css/layouts/default.css" media="screen" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div class="wrapper in-page">
-      <header>
-	  <!-- Menu Navigasi -->
-        <div class="page_head classic-vers">
-            <div id="nav-container" class="nav-container" style="height: auto;">
-                <nav>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pull-left">
-                                <div class="logo">
-                                    <a href="index.html">
-                                      <img class="pull-left" src="assets/images/logoTC.png" alt="Logo">
-                                    </a>
-                                </div>
-                            </div>
-							<!-- Style Navigasi-->
-                            <div class="col-lg-9 col-md-9 col-sm-6 col-xs-6 pull-right">
-                              <div class="menu menu-wrapper classic-vers">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
-                              <div class="navbar-collapse collapse">
-                                <div class="menu-main-menu-container">
-                                  <ul>
-                                    <li class="current-menu-item"><a href="index.html">Home</a>
-                                    <li><a href="#">Competition</a>
-                                      <ul class="sub-menu">
-                                        <li><a href="EEC.html">EEC</a></li>
-                                        <li><a href="LFC.html">LFC</a></li>
-                                        <li><a href="SDC.html">SDC</a></li>
-                                      </ul>
-                                    </li>
-                                    <li><a href="#">Seminar Nasional</a></li>
-									<li><a href="#">Techno EXPO</a></li>\
-									<li><a href="#">Pendaftaran</a></li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                            </div>
-							<!--End Style Navigasi-->
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-		<!-- END Menu Navigasi -->
-      </header>
-      <div class="page-in">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="page-in-name">Electrical Enginering Competition</div>
-              <div class="page-in-bread">You are here: <a href="#">Home</a> \ Portfolio</div>              
-            </div>            
-          </div>
-        </div>
-      </div>
-      <div class="container marg50">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>EEC Electrical Engineering Competition - Technocorner 2017</title>
+  <meta name="description" content="">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+  <meta name="theme-color" content="#212125">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#212125">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#212125">
+
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="../images/favicon.ico" >
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" />
+  <link rel="stylesheet" href="../assets/css/normalize.css">
+  <link rel="stylesheet" href="../assets/font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/css/pe-icon-7-stroke.css">
+  <link rel="stylesheet" href="../assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="../assets/css/bootstrap.css" media="screen,projection" />
+  <link rel="stylesheet" href="../assets/css/animate.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="../assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
+  <!-- <link rel="stylesheet" href="../assets/libs/jquery.fullpage/jquery.fullPage.css" /> -->
+  <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+  <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
+  <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+  <link rel="stylesheet" href="../assets/css/jcarousel.responsive.css" media="screen,projection" />
+    <!-- <link rel="stylesheet" href="../assets/libs/jquery.jscrollpane/style/jquery.jscrollpane.css" /> -->
+    <!-- <link rel="stylesheet" href="../assets/libs/jquery.jscrollpane/theme/technocorner/style/jquery.jscrollpane.technocorner.css" /> -->
+  
+<!-- Custom CSS -->
+  <!-- <link rel="stylesheet" href="assets/css/index.css"> -->
+  <link rel="stylesheet" href="../assets/css/main2.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/event.css">
+
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+
+  <!-- Choose your default colors -->
+  <link rel="stylesheet" href="../assets/css/colors/color1.css">
+
+  <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body style="background-color: rgb(33, 33, 37)">
+
+  <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader">
+            <svg class="circle-loader" height="50" width="50">
+              <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+            </svg>
+        </div>    
+    </div>
+    <!--preloader end-->
+
+  <!-- Main Container -->
+  <main id="app" class="main-section">
+
+    <!-- header navigation start -->
+    <header id="navigation" class="root-sec nav-black nav">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-9">
-            <div id="main">
-              <div class="slider">
-                <div class="flexslider">
-                  <ul class="slides">
-                    <li><img src="assets/images/1111.jpg" alt=""></li>
-                    <li><img src="assets/images/55.jpg" alt=""></li>
-                    <li><img src="assets/images/88.png" alt=""></li>
+          <div class="col-sm-12">
+            <div class="nav-inner">
+              <nav class="primary-nav">
+                <div class="clearfix nav-wrapper">
+                  <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img src="../images/logo-nav.png" alt="">
+                  </a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                  <ul class="inline-menu side-nav" id="mobile-demo">
+
+                  <!-- Mini Profile // only visible in Tab and Mobile -->
+                    <li class="mobile-profile">
+                     <div class="profile-inner">
+                        <div class="logo-container">
+                          <a href="#home" class="menu-smooth-scroll" data-section="#home">
+                            <img src="../images/pure-logo.png" alt="">
+                          </a>                            
+                        </div>
+                      </div>
+                    </li>
+                    <!-- mini profile end-->
+
+
+                    <li><a href=".." class="menu-nav"><i class="fa fa-user fa-fw"></i>Home</a>
+                    </li>
+                    <li><a href="../#about" data-section="#about" class="menu-smooth-scroll menu-nav"><i class="fa fa-user fa-fw"></i>About</a>
+                    </li>
+                    <li><a href="../#event" id="event-hover" data-section="#event" class="event-item menu-nav menu-smooth-scroll"><i class="fa fa-code fa-fw"></i>Event <a class="tombol-event"><i class="event-expand fa fa-bars fa-fw"></i></a></a>
+                      <ul class="submenu-list subevent" id="event-list">
+                        <a href="../semnas/"><li class="submenu-item ns">National Seminar<span class="label"></span></li></a>
+                        <a href="../expo/"><li class="submenu-item expo">Techno Expo</li></a>
+                        <a href="../sdc/"><li class="submenu-item sdc">Software Development Competition</li></a>
+                        <a href="../eec/"><li class="submenu-item eec">Electrical Engineering Competition</li></a>
+                        <a href="../lfc/"><li class="submenu-item lfc">Line Follower Competition</li></a>
+                      </ul>
+                    </li>
+                    <li><a href="../#gallery" data-section="#gallery" class="menu-smooth-scroll menu-nav"><i class="fa fa-briefcase fa-fw"></i>Gallery</a>
+                    </li>
+                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll menu-nav"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                    </li>
                   </ul>
                 </div>
-              </div>
+              </nav>
             </div>
           </div>
-          <div class="col-lg-3">
-            <ul class="portfolio-item">
-              <li>Name: EEC ( Electrical Enginering Competition )</li>
-              <li>Tanggal Registrasi : 07.09.2015</li>
-			  <li>Akhir Registrasi : 07.09.2015</li>
-              <li>Category: Competition</li>
-              <li>Subjek 2: xxxx</li>
-              <li>Subjek 3: xxxx</li>
-            </ul>
+        </div>
+      </div>
+      <!-- .container end -->
+    </header>
+    <!-- #header  navigation end -->
+
+    <!-- Home Section start -->
+    <section id="home" class="scroll-section root-sec lighten-5 home-wrap">
+      <div class="sec-overlay">
+        <div class="sponsors">
+          <div class="row">
+            <div class="col-sm-12">
+              <header class="major">
+              <h2>EEC</h2>
+              <p>Electrical Engineering Competition</p>
+              <a href="#" class="image fit"><img src="../images/event-eec-wide.jpg" alt="" /></a>
+            </header>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+        <div class="section-call-to-area">
+          <div class="container">
             <div class="row">
-              <div class="col-lg-4 col-xs-4 pull-left"><a href="EEC.html" class="btn-item pull-left">« Prev</a></div>
-              <div class="col-lg-4 col-xs-4"><div class="item-heart"><i class="icon-heart"></i></div></div>
-              <div class="col-lg-4 col-xs-4 pull-right"><a href="SDC.html" class="btn-item pull-right">Next »</a></div>
+              <a href="#content" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#content">
+                <i class="mdi-navigation-expand-more"></i>
+              </a>
             </div>
-          </div>         
-        </div>
-        <div class="row marg25">
-          <div class="col-lg-12">
-            <ul class="portfolio-item">
-              <li>Description:</li>
-            </ul>
-            <div class="portfolio-item-text">Pellentesque augue augue, cursus id nisl id, facilisis egestas magna. Nullam sed diam et magna tincidunt malesuada id euismod justo. Cras mollis imperdiet mauris, nec sollicitudin leo rutrum a. Nullam iaculis porta turpis. Suspendisse pharetra magna non nulla posuere ornare. Donec et eros sit amet nulla tempor feugiat. Nulla ornare libero magna. Phasellus dolor mi, gravida a velit ut, dapibus tincidunt augue. Donec gravida leo vitae consectetur volutpat. Aenean posuere ullamcorper dui, sed adipiscing arcu mollis ac. Quisque non arcu id arcu euismod laoreet nec in sapien. Nam nisi dolor, fermentum eget placerat a, sollicitudin ut ante. Sed non lacus tincidunt, rhoncus sapien id, mattis leo. Fusce a ante id elit consequat imperdiet. Praesent fermentum nisl id justo viverra, sit amet tincidunt tellus vulputate. Morbi sed volutpat velit.</div></div>
+          </div>
+          <!-- .container end -->
         </div>
       </div>
-      <div class="container marg50">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="cbp-l-filters-button button-group filter-button-group" style="display:table;margin:auto;">
-              <div class="button cbp-filter-item-active cbp-filter-item" data-filter="*">All</div>
-              <div class="button cbp-filter-item" data-filter=".wordpress">Wordpress</div>
-              <div class="button cbp-filter-item" data-filter=".design">Web Design</div>
-              <div class="button cbp-filter-item" data-filter=".graphic">Graphic</div>
-              <div class="button cbp-filter-item" data-filter=".envato">Envato</div>
-              <div class="button cbp-filter-item" data-filter=".html">HTML 5 / CSS 3</div>
+    </section>
+    <!-- #home Section end -->
+
+    <!-- About Section start -->
+    <section id="content">
+    <div class="">
+    <div class="ui top attached tabular menu tabmenu">
+      <a class="item active" data-tab="deskripsi">Deskripsi</a>
+      <a class="item" data-tab="juknis">Syarat dan Ketentuan</a>
+      <a class="item" data-tab="pendaftaran">Pendaftaran</a>
+      <a class="item" data-tab="download">Download</a>
+      <a class="item" data-tab="faq">FAQ</a>
+    </div>
+    <div class="ui bottom attached tab segment active" data-tab="deskripsi">
+        <p>Electrical Engineering Competition merupakan sebuah kompetisi di bidang matematika, fisika dan  komputer. Format kompetisi ini beregu. Tiap regu terdiri dari 3 orang siswa SMA/sederajat se-Indonesia. Seleksi dilaksanakan melalui seleksi online. 20 regu terbaik akan berkompetisi di babak semifinal yang terdiri dari babak ujian tulis dan babak praktikum di Grha Sabha Pramana, Universitas Gadjah Mada. Kemudian, dipilih 5 regu terbaik untuk mengikuti babak grandfinal. Format babak grandfinal EEC 2016 terdiri dari 4 babak eliminasi. Satu regu akan tersisih di setiap babak, sehingga setelah babak akhir menyisakan 1 regu sebagai juara pertama.</p>
+        <h3>Sasaran Peserta Kegiatan</h3>
+        <p>Regu yang terdiri dari 3 siswa/i SMA/sederajat se-Indonesia</p>
+        <h3>Waktu dan Tempat Pelaksanaan Lomba</h3>
+        <h4>Seleksi Online</h4>
+        <p>Hari, tanggal  : Sabtu, 27 Februari 2016 <br>
+            Waktu    : 09.00 – 11.30 WIB</p>
+        <h4>Babak Semifinal dan grandfinal</h4>
+        <p>Hari, tanggal  : Minggu, 13 Maret 2016 <br>
+           Waktu    : 08.00 - selesai <br>
+   Tempat : Ruang C1 dan C2 Grha Sabha Pramana (GSP) Universitas Gadjah Mada </p>
+        <h3>Hadiah</h3>
+        <p>Juara I : hadiah senilai Rp 3.000.000 + trofi <br>
+          Juara II : hadiah senilai Rp. 2.000.000 + trofi <br>
+            Juara III : hadiah senilai Rp. 1.500.000 + trofi <br>
+            Juara IV : hadiah senilai Rp. 750.000 + trofi <br>
+            Juara V : hadiah senilai Rp. 500.000 + trofi </p>
+        <h3>Fasilitas Peserta</h3>
+        <p>
+          Sertifikat (semua peserta) <br>
+          Seminar kit, snack, makan siang (semifinalis)
+        </p>
+        <h3>Contact Person</h3>
+        <p>Azka : 081914444145</p>
+    </div>
+    <div class="ui bottom attached tab segment" data-tab="juknis">
+      <h3>Ketentuan / Persyaratan Tim</h3>
+      <ol>
+        <li>Setiap tim terdiri dari 3 orang anggota yang merupakan siswa/i SMA/sederajat se-Indonesia.</li>
+<li>Setiap tim terdiri dari 3 orang anggota yang berasal dari sekolah yang sama.</li>
+<li>Setiap orang hanya boleh mendaftar pada satu tim.</li>
+<li>Setiap tim bebas menentukan nama tim.</li>
+<li>Dilarang menggunakan kata kata yang mengandung hinaan, umpatan, provokasi dan SARA dalam                                          penggunaan nama tim. </li><br>
+        <em><strong>Panitia memiliki hak sepenuhnya untuk menentukan suatu tim lolos persyaratan atau             `         tidak. </strong></em>
+        </ol>
+       <h3>Pengumuman</h3>
+       <ol>
+        <li>Regu yang lolos seleksi online akan diumumkan pada tanggal 28 Februari 2016.</li>
+<li>Regu yang dinyatakan lolos dari babak penyisihan online akan mendapatkan surat undangan dari panitia yang kemudian dikirimkan ke sekolah masing-masing.</li>
+        </ol>
+<h3>Kisi-kisi Materi Lomba</h3>
+        <p>Kisi-kisi materi lomba dapat diunduh di <a href="#download">www.technocornerugm.com/eec/#/download</a> atau fanpage <a href="https://www.facebook.com/TechnocornerUGM"> https://www.facebook.com/TechnocornerUGM</a></p> <!--Ini aku masih bingung -->
+
+    </div>
+    <div class="ui bottom attached tab segment" data-tab="pendaftaran">
+      <p>
+        <a href="../img/alur-pendaftaran.png">
+          <img src="../img/alur-pendaftaran.png" alt="Ilustrasi pendaftaran" class="ui centered fluid image">
+        </a>
+      </p>
+      <h3>Biaya Pendaftaran</h3>
+        <p>Biaya pendaftaran lomba adalah Rp 100.000,00 per regu</p>
+      <h3>Waktu Pendaftaran</h3>
+        <p>Tanggal  : 14 Desember 2015 – 23 Februari 2016</p>
+      <h3>Alur Pendaftaran</h3>
+        <ol>
+          <li>Buka link <a href="http://ugm.id/TechnocornerEEC"> http://ugm.id/TechnocornerEEC</a></li>
+          <li>Kemudian isi formulir pendaftaran* dengan benar dan klik SUBMIT </li>
+          <li>Kemudian unduh / download template registrasi lanjutan di <a href="#download">www.technocornerugm.com/eec/#/download</a></li>
+          <li>Didalam template registrasi yang telah diunduh terdapat informasi tim, identitas diri peserta dan guru pembimbing yang harus diisi dengan benar</li>
+          <li>Membayar biaya pendaftaran sebesar Rp. 100.000,- ke rekening 137-00-1192262-8 atas nama Fiha Febiala (Bank Mandiri). </li>
+          <li>Atau pembayaran dapat dilakukan langsung di Lobi Departemen Teknik Elektro dan Teknologi Informasi Fakultas Teknik, Universitas Gadjah Mada dengan alamat Jalan Grafika No. 2 Kampus UGM, Yogyakarta mulai tanggal 1 – 23 Februari 2016 pada jam kerja.</li>
+          <li>Menyiapkan berkas pendaftaran untuk diletakkan pada template registrasi, yaitu: </li>
+    <ul>
+                <li>Pas foto 3x4 masing-masing peserta</li>
+    <li>Scan Kartu Tanda Pelajar masing-masing peserta </li>
+    <li>Scan Kartu Identitas Guru Pembimbing </li>
+    <li>Scan bukti pembayaran </li>
+                </ul>
+  <li>Template registrasi yang telah diunduh dan diisi tersebut dikonversi ke file ekstensi .pdf dengan nama EEC_NAMA KETUA REGU_ASAL SEKOLAH </li>
+  <li>Kemudian file diupload di <a href="http://ugm.id/Technocorner2016upEEC"> http://ugm.id/Technocorner2016upEEC</a> </li>
+  <li>Jika berkas telah sesuai persyaratan dan lengkap, peserta akan mendapatkan email konfirmasi bahwa sudah terdaftar sebagai peserta kompetisi Technocorner. </li>
+         </ol>
+
+    </div>
+    <div class="ui bottom attached tab segment" data-tab="download">
+      <div class="ui items">
+        <div class="item" >
+          <a class="ui tiny image">
+            <img src="../img/file.png" href="../download/Formulir Pendaftaran EEC.docx">
+          </a>
+          <div class="content">
+            <a class="header" href="../download/Formulir Pendaftaran EEC.docx">Template Pendaftaran Online</a>
+            <div class="description">
+              <p>Digunakan untuk verifikasi pendaftaran online. Isi form ini sesuai dengan data tim dan upload ke <a href="http://ugm.id/Technocorner2016upEEC" target="_blank">http://ugm.id/Technocorner2016upEEC</a></p>
             </div>
           </div>
         </div>
+        <div class="item" >
+          <a class="ui tiny image">
+            <img src="../img/file.png" href="../download/KISI-KISI ELECTRICAL ENGINEERING COMPETITION 2016.pdf">
+          </a>
+          <div class="content">
+            <a class="header" href="../download/KISI-KISI ELECTRICAL ENGINEERING COMPETITION 2016.pdf">Kisi-Kisi Electrical Engineering 2016</a>
+            </div>
+          </div>
+        </div>
+        <div class="item" >
+          <a class="ui tiny image" href="../download/Petunjuk-Teknis-EEC.pdf">
+            <img src="../img/file.png">
+          </a>
+          <div class="content">
+            <a class="header" href="../download/Petunjuk-Teknis-EEC.pdf">File Petunjuk Teknis EEC</a>
+            <div class="description">
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="container">
-        <div class="grid gallery js-isotope port-4 marg50">
-            <div class="grid-item wordpress graphic">
-              <div class="portfolio-dankov">
-                 <figure class="effect-goliath">
-                  <img src="assets/images/bus_1.png" alt="img23"/>
-                  <figcaption>
-                    <div class="icon-links">
-                      <a href="#" class="cbp-singlePageInline attach-icon"><i class="pe-7s-link"></i></a>
-                      <a href="assets/images/bus_1.png" class="cbp-lightbox search-icon" data-gal="prettyphoto"><i class="pe-7s-search"></i></a>
-                    </div>
-                    <p>Ezaii Website</p>
-                  </figcaption>     
-                </figure>
-              </div>
-            </div>
-            <div class="grid-item html graphic">
-              <div class="portfolio-dankov">
-                 <figure class="effect-goliath">
-                  <img src="assets/images/bus_2.png" alt="img23"/>
-                  <figcaption>
-                    <div class="icon-links">
-                      <a href="#" class="cbp-singlePageInline attach-icon"><i class="pe-7s-link"></i></a>
-                      <a href="assets/images/bus_2.png" class="cbp-lightbox search-icon" data-gal="prettyphoto"><i class="pe-7s-search"></i></a>
-                    </div>
-                    <p>PinSupreme logo</p>
-                  </figcaption>     
-                </figure>
-              </div>
-            </div>
-            <div class="grid-item envato html">
-              <div class="portfolio-dankov">
-                 <figure class="effect-goliath">
-                  <img src="assets/images/bus_3.png" alt="img23"/>
-                  <figcaption>
-                    <div class="icon-links">
-                      <a href="#" class="cbp-singlePageInline attach-icon"><i class="pe-7s-link"></i></a>
-                      <a href="assets/images/bus_3.png" class="cbp-lightbox search-icon" data-gal="prettyphoto"><i class="pe-7s-search"></i></a>
-                    </div>
-                    <p>Trackolade Mobile App</p>
-                  </figcaption>     
-                </figure>
-              </div>
-            </div>  
-            <div class="grid-item wordpress envato html">
-              <div class="portfolio-dankov">
-                 <figure class="effect-goliath">
-                  <img src="assets/images/bus_4.png" alt="img23"/>
-                  <figcaption>
-                    <div class="icon-links">
-                      <a href="#" class="cbp-singlePageInline attach-icon"><i class="pe-7s-link"></i></a>
-                      <a href="assets/images/bus_4.png" class="cbp-lightbox search-icon" data-gal="prettyphoto"><i class="pe-7s-search"></i></a>
-                    </div>
-                    <p>Wasted Wednesdays</p>
-                  </figcaption>     
-                </figure>
-              </div>
-            </div>
-            <div class="grid-item design graphic">
-              <div class="portfolio-dankov">
-                 <figure class="effect-goliath">
-                  <img src="assets/images/bus_5.png" alt="img23"/>
-                  <figcaption>
-                    <div class="icon-links">
-                      <a href="#" class="cbp-singlePageInline attach-icon"><i class="pe-7s-link"></i></a>
-                      <a href="assets/images/bus_5.png" class="cbp-lightbox search-icon" data-gal="prettyphoto"><i class="pe-7s-search"></i></a>
-                    </div>
-                    <p>Drubbed Icon</p>
-                  </figcaption>     
-                </figure>
-              </div>
-            </div>
-            <div class="grid-item wordpress design html">
-              <div class="portfolio-dankov">
-                 <figure class="effect-goliath">
-                  <img src="assets/images/bus_6.jpg" alt="img23"/>
-                  <figcaption>
-                    <div class="icon-links">
-                      <a href="#" class="cbp-singlePageInline attach-icon"><i class="pe-7s-link"></i></a>
-                      <a href="assets/images/bus_6.jpg" class="cbp-lightbox search-icon" data-gal="prettyphoto"><i class="pe-7s-search"></i></a>
-                    </div>
-                    <p>Jellyfish In Love</p>
-                  </figcaption>     
-                </figure>
-              </div>
-            </div> 
-            <div class="grid-item wordpress">
-              <div class="portfolio-dankov">
-                 <figure class="effect-goliath">
-                  <img src="assets/images/bus_7.jpg" alt="img23"/>
-                  <figcaption>
-                    <div class="icon-links">
-                      <a href="#" class="cbp-singlePageInline attach-icon"><i class="pe-7s-link"></i></a>
-                      <a href="assets/images/bus_7.jpg" class="cbp-lightbox search-icon" data-gal="prettyphoto"><i class="pe-7s-search"></i></a>
-                    </div>
-                    <p>Pipi Monkey</p>
-                  </figcaption>     
-                </figure>
-              </div>
-            </div>
-            <div class="grid-item design">
-              <div class="portfolio-dankov">
-                 <figure class="effect-goliath">
-                  <img src="assets/images/bus_8.png" alt="img23"/>
-                  <figcaption>
-                    <div class="icon-links">
-                      <a href="#" class="cbp-singlePageInline attach-icon"><i class="pe-7s-link"></i></a>
-                      <a href="assets/images/bus_8.png" class="cbp-lightbox search-icon" data-gal="prettyphoto"><i class="pe-7s-search"></i></a>
-                    </div>
-                    <p>Gwitr App UI</p>
-                  </figcaption>     
-                </figure>
-              </div>
-            </div> 
-          </div>   
+    <div class="ui bottom attached tab segment" data-tab="faq">
+      <p>
+        Q : EEC itu kompetisi apa sih Kak? <br>
+        A : Electrical Engineering Competition adalah kompetisi di bidang matematika, fisika dan komputer.
+      </p>
+
+      <p>
+        Q : Adakah batasan jenjang pendidikan yang dapat mengikuti kompetisi EEC? <br>
+        A : Kami membatasi jenjang pendidikan kompetisi EEC hanya untuk siswa SMA/sederajat se-Indonesia
+      </p>
+
+      <p>
+        Q : Tahapan / bentuk perlombaannya apa saja, Kak? <br>
+        A : Ada tiga tahap, yaitu Seleksi Online, Semifinal dan Grandfinal. Dalam Seleksi Online, peserta mengerjakan soal secara online di web kami. Kemudian, Semifinal dan Grandfinal akan dilaksanakan pada hari yang sama. Dalam Semifinal terdapat babak ujian tulis dan babak praktikum. Dalam Grandfinal kemudian akan ada 4 babak eliminasi. <br>
+        Untuk penjelasan lebih lengkap, klik <a href="#juknis">halaman petunjuk teknis</a>
+      </p>
+
+      <p>
+        Q : Berapa tim yang lolos ke Semifinal? <br>
+        A : Duapuluh tim terbaik berdasarkan penilaian seleksi online.
+      </p>
+
+      <p>
+        Q : Berapa tim yang lolos ke Grandfinal? <br>
+        A : Lima tim terbaik berdasarkan penilaian Babak Ujian Tulis dan Babak Praktikum.
+      </p>
+
+      <p>
+        Q : Adakah ketentuan banyaknya anggota dalam satu tim? <br>
+        A : Ya, setiap tim terdiri dari 3 orang anggota
+      </p>
+
+      <p>
+        Q : Apakah boleh satu tim hanya terdiri dari 1 atau 2 orang anggota saja? <br>
+        A : Ya boleh, selama tidak lebih dari 3 orang anggota.
+      </p>
+
+      <p>
+        Q : Apakah boleh satu tim terdiri dari anggota yang berbeda sekolah? <br>
+        A : Mohon maaf, satu tim hanya boleh terdiri dari anggota yang berasal dari sekolah yang sama.
+      </p>
+
+      <p>
+        Q : Jika saya dari SMA Yayasan Sayang Bunda 1 dan teman saya dari SMA Yayasan Sayang Bunda 2, apakah kami bisa ikut dalam satu tim yang sama meskipun SMA kami bernaung dalam yayasan yang sama? <br>
+        A : Tidak bisa, sesuai dengan ketentuan bahwa setiap tim hanya terdiri dari anggota yang berasal dari sekolah yang sama. Jadi, jika peserta berasal dari SMA/Sederajat yang berbeda meskipun SMA/Sederajat tersebut dalam satu yayasan yang sama tetap tidak bisa.
+      </p>
+
+      <p>
+        Q : Apakah ada ketentuan dalam penggunaan nama tim? <br>
+        A : Penggunaan nama tim bebas tetapi harus sopan dan tidak mengandung hinaan, umpatan, provokasi maupun SARA. Panitia memiliki hak sepenuhnya untuk menentukan suatu tim lolos persyaratan atau tidak.
+      </p>
+
+      <p>
+        Q : Berapakah besarnya biaya pendaftaran? <br>
+        A : Biaya pendaftaran sebesar Rp 100.000,00 per tim. <br>
+        Untuk lebih jelas tentang proses pendaftaran, buka <a href="#pendaftaran">halaman pendaftaran</a>
+      </p>
+
+      <p>
+        Q : Boleh minta dirangkum tanggal-tanggal penting untuk EEC?
+        A : <br>
+        Tanggal penting untuk Seleksi Online :
+        <ul>
+          <li>14 Desember 2015 - 23 Februari 2016   : Pendaftaran Online dan Upload Berkas Pendaftaran</li>
+          <li>27 Februari 2016 : Pelaksanaan Seleksi Online</li>
+        </ul>
+        Tanggal penting untuk Semifinal dan Grandfinal : <br>
+        <ul>
+          <li>28 Februari 2016        : Pengumuman Tim yang lulus seleksi online</li>
+          <li>13 Maret 2016         : Pelaksanaan Semifinal dan Grandfinal</li>
+        </ul>
+      </p>
       </div>
-	
-      <script type="text/javascript">
-        $(window).load(function(){
-          $('.flexslider').flexslider({
-            animation: "slide",
-            controlNav: false,
-            start: function(slider){
-              $('body').removeClass('loading');
-            }
-          });
-        });
-      </script>
-      <div class="footer">
+
+    </div>
+    </div>
+    </section>
+    <!-- #portfolio Section end -->
+
+    <!-- Contact Section end -->
+    <section id="contact" class="scroll-section root-sec">
+      <div class="color-line">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <div class="footer-widget">
-                <div class="footer-title">Some Info</div>
-                <div class="text_footer">
-                  Situation admitting promotion at or to perceived be. Mr acuteness we as estimable enjoyment up. An held late as felt know. Learn do allow solid to grave.
-                </div>
-                <ul class="soc-footer">
-                  <li><a href="#"><i class="ti-twitter"></i></a></li>
-                  <li><a href="#"><i class="ti-tumblr"></i></a></li>
-                  <li><a href="#"><i class="ti-dropbox"></i></a></li>
-                  <li><a href="#"><i class="ti-dribbble"></i></a></li>
-                  <li><a href="#"><i class="ti-vimeo"></i></a></li>
-                  <li><a href="#"><i class="ti-instagram"></i></a></li>
-                </ul>
+            <div class="col-lg-9 col-md-9 col-sm-7 col-xs-12">
+              <div class="color-line-text">
+                Masih ada pertanyaan mengenai TECHNOCORNER 2017 ?
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-5 col-xs-12">
+              <div class="color-line-button">
+                <a href="#" target="_blank">Hubungi Kami Sekarang!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section id="contact" class="scroll-section root-sec">
+     <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 margin-footer">
               <div class="footer-widget">
                 <div class="footer-title">Our Contacts</div>
                 <ul class="contact-footer contact-composer">
-                  <li><i class="pe-7s-home"></i> <span>Adress: 455 Martinson, Los Angeles</span></li>
-                  <li><i class="pe-7s-call"></i> <span>Phone: 8 (043) 567 - 89 - 30</span></li>
-                  <li><i class="pe-7s-mail"></i> <span>E-mail: support@email.com</span></li>
-                  <li><i class="pe-7s-lock"></i> <span>Weekend: from 9 am to 6 pm</span></li>
+                  <li><i class="pe-7s-home"></i> <span>Jalan Grafika No. 2 Yogyakarta 55281</span></li>
+                  <li><i class="pe-7s-call"></i> <span>085643xxxxxx (Adisakti Wibowo)</span></li>
+                  <li><i class="pe-7s-mail"></i> <span>support@technocornerugm.com</span></li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-4 col-md-4 col-sm-4 margin-footer">
               <div class="footer-widget">
                 <div class="footer-title">Tags Cloud</div>
                 <div class="tagcloud">
                   <a href="#">tags</a>
-                  <a href="#">html</a>
-                  <a href="#">dankov</a>
-                  <a href="#">Design</a>
-                  <a href="#">envato</a>
-                  <a href="#">js</a>
-                  <a href="#">dankov</a>
-                  <a href="#">phoenix</a>
-                  <a href="#">wordpress</a>
-                  <a href="#">themeforest</a>
-                  <a href="#">css</a>
-                  <a href="#">insomnia</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
+                  <a href="#">tags</a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-4 col-md-4 col-sm-4" id="flickr">
               <div class="footer-widget">
-                <div class="footer-title">Flickr Widget</div>
-                <div class="flickr_widget_wrapper"><script src="http://www.flickr.com/badge_code_v2.gne?count=8&display=latest&size=s&layout=x&source=user&user=52617155@N08"></script></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-ms-12 pull-right">
-                    <div class="foot_menu">
-                      <div class="menu-footer-menu-container">
-                        <ul>
-                          <div class="copyright">Developed by Bayu Adin from <a href="https://daiserver.com" target="_blank">DaiServer</a></div>
-                        </ul>
-                      </div>            
-                    </div>
+                <div class="footer-title">Instagram</div>
+                <div class="flickr_widget_wrapper">
+                  <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a7a014647bda56258d46ba5aa31907d3.html" id="lightwidget_a7a014647b" name="lightwidget_a7a014647b"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>  
-    <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
-    <script type="text/javascript" src="assets/js/sticky.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/retina.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.prettyphoto.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.jcarousel.min.js"></script>
-    <script type="text/javascript" src="assets/js/jcarousel.responsive.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-  </body>
+    </section>
+    <!-- #contact Section end -->
+    <section class="scroll-section root-sec sponsors-bg">
+      <div class="containe sponsors">
+        <div class="row">
+          <div class="col-lg-12 col-xs-12 marg10 sponsors-marg">
+            <h3 class="sponsors-text">Our Sponsors & Media Partner :</h3>
+            <div class="jcarousel-wrapper">
+              <div class="jcarousel">
+                <ul>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="../images/client-1.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="../images/client-5.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="../images/client-4.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="../images/client-2.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="../images/client-5.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="../images/client-4.jpg" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- <h3 class="sponsors-text">Our Media Partner :</h3>
+            <div class="jcarousel-wrapper">
+              <div class="jcarousel">
+                <ul>
+                  <li><a ><img src="images/client-1.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-2.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="images/client-5.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-6.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-4.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-1.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="images/client-3.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                  <li><a ><img src="images/client-6.jpg" alt=""></a></li>
+                  <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
+                </ul>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section end -->
+    <footer id="footer" class="root-sec root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <li><a href="https://www.facebook.com/TechnocornerUGM" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.twitter.com/TechnocornerUGM" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="https://line.me/R/ti/p/%40kdo2899c" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/technocornerugm/" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Instagram"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul> <!-- ./social icons end -->
+              <div class="right copyright">
+                <p>Technocorner 2017 &copy; All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </footer>
+    <!-- #footer end -->
+
+  </main>
+  <!-- Main Container end-->
+<!-- </div> -->
+
+  <!-- JavaScripts -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="assets/libs/jquery/jquery.js"></script> -->
+  <script src="../assets/libs/jquery/jquery.easings.min.js"></script>
+  <script src="../assets/libs/jquery/jquery.slimscroll.min.js"></script>
+  <script src="../assets/libs/jquery/jquery.mousewheel.js"></script>
+  <script src="../assets/libs/jquery/jquery.mousewheel.min.js"></script>
+  <script src="../assets/libs/jquery.fullpage/jquery.fullPage.js"></script>
+
+  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+  <!-- bug jquery.min.js 1.11.2 membuat mousewheel not working -->
+  <!-- <script src="assets/js/index.js"></script> -->
+  <script src="../assets/js/jquery.easing.1.3.js"></script>
+  <script src="../assets/js/detectmobilebrowser.js"></script>
+  <script src="../assets/js/isotope.pkgd.min.js"></script>
+  <script src="../assets/js/wow.min.js"></script>
+  <script src="../assets/js/waypoints.js"></script>
+  <script src="../assets/js/jquery.counterup.min.js"></script>
+  <script src="../assets/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="../assets/js/gmaps.js"></script>
+  <script src="../assets/libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="../assets/libs/materialize/js/materialize.min.js"></script>
+  <script src="../assets/libs/jwplayer/jwplayer.js"></script>
+  <!-- <script src="../assets/libs/sweetalert/sweet-alert.min.js"></script> -->
+  <script type="text/javascript" src="../assets/js/jcarousel.responsive.js"></script>
+  <script type="text/javascript" src="../assets/js/jquery.jcarousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+  <!-- <script type="text/javascript" src="assets/js/bootstrap.min.js"></script> -->
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/libs/jquery-address/src/jquery.address.js"></script>
+  <!-- <script src="../assets/libs/jquery.jscrollpane/script/jquery.jscrollpane.min.js"></script> -->
+<!--   <script src="../assets/libs/fragmented-mesh-js/RequestAnimationFrame.js"></script>
+  <script src="../assets/libs/fragmented-mesh-js/ThreeWebGL.js"></script>
+  <script src="../assets/libs/fragmented-mesh-js/fragments.js"></script> -->
+  <script type="text/javascript">
+    $('.tabmenu .item')
+    .tab({
+        history: true,
+        historyType: 'hash'
+    });
+  </script>
+  <script type="text/javascript">
+        if ($(window).width() >= 960) {
+          $(document).mousemove(function() {
+          if($('#event-hover').is(':hover') || $('#event-list').is(':hover')) {
+              $('.submenu-list').css('display', 'table');
+          }
+          else {
+              $('.submenu-list').css('display', 'none');
+          }
+        });
+        }
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function()
+    {
+    var action = 1;
+
+        $('.event-expand').click(function()
+        {
+        if ( action == 1 ) {
+                $('.submenu-list').css('display','table');
+                action = 2;
+            } else {
+                $('.submenu-list').css('display','none');
+                action = 1;
+            }
+        });
+
+
+        });
+  </script>
+
+</body>
+
 </html>
