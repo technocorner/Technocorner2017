@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>EEC Electrical Engineering Competition - Technocorner 2017</title>
+  <title>EEC Electrical Engineering Competition - Technocorner 20171</title>
   <meta name="description" content="">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
@@ -21,32 +21,28 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#212125">
 
   <!-- Favicon-->
-  <link rel="shortcut icon" href="../images/favicon.png" >
+  <link rel="shortcut icon" href="../images/favicon.ico" >
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" />
   <link rel="stylesheet" href="../assets/css/normalize.css">
   <link rel="stylesheet" href="../assets/font/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/css/pe-icon-7-stroke.css">
-  <link rel="stylesheet" href="../assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="../assets/libs/materialize/css/materialize.min2.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/css/bootstrap.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/css/animate.min.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
-  <!-- <link rel="stylesheet" href="../assets/libs/jquery.fullpage/jquery.fullPage.css" /> -->
   <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
   <link rel="stylesheet" href="../assets/css/jcarousel.responsive.css" media="screen,projection" />
-    <!-- <link rel="stylesheet" href="../assets/libs/jquery.jscrollpane/style/jquery.jscrollpane.css" /> -->
-    <!-- <link rel="stylesheet" href="../assets/libs/jquery.jscrollpane/theme/technocorner/style/jquery.jscrollpane.technocorner.css" /> -->
   
 <!-- Custom CSS -->
-  <!-- <link rel="stylesheet" href="assets/css/index.css"> -->
   <link rel="stylesheet" href="../assets/css/main2.css">
   <link rel="stylesheet" href="../assets/css/main.css">
   <link rel="stylesheet" href="../assets/css/event.css">
-
   <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link href="../assets/css/flexslider.css" media="screen" rel="stylesheet" type="text/css">
 
   <!-- Choose your default colors -->
   <link rel="stylesheet" href="../assets/css/colors/color1.css">
@@ -128,17 +124,31 @@
     <!-- Home Section start -->
     <section id="home" class="scroll-section root-sec lighten-5 home-wrap">
       <div class="sec-overlay">
+
         <div class="sponsors">
           <div class="row">
             <div class="col-sm-12">
               <header class="major">
               <h2>EEC</h2>
               <p>Electrical Engineering Competition</p>
-              <a href="#" class="image fit"><img src="../images/event-eec-wide.jpg" alt="" /></a>
+              <!-- Slider -->
+              <div id="main">
+                <div class="slider">
+                  <div class="flexslider">
+                    <ul class="slides">
+                      <li><img src="images/header.jpg" alt=""></li>
+                      <li><img src="images/eec.jpg" alt=""></li>
+                      <li><img src="images/tc.jpg" alt=""></li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- END Slider -->
             </header>
             </div>
           </div>
         </div>
+      <!-- <div class="sec-overlay"> -->
+
         <!-- .container end -->
         <div class="section-call-to-area">
           <div class="container">
@@ -156,7 +166,6 @@
 
     <!-- About Section start -->
     <section id="content">
-    <div class="">
     <div class="ui top attached tabular menu tabmenu">
       <a class="item active" data-tab="deskripsi">Deskripsi</a>
       <a class="item" data-tab="juknis">Syarat dan Ketentuan</a>
@@ -349,7 +358,6 @@
       </div>
 
     </div>
-    </div>
     </section>
     <!-- #portfolio Section end -->
 
@@ -377,11 +385,26 @@
      <div class="footer">
         <div class="container">
           <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4  margin-footer" id="flickr">
+              <div class="footer-widget">
+                <div class="footer-title">Presented by</div>
+                <div class="flickr_widget_wrapper">
+                  <div class="closing-present">
+                    <a href="http://www.ugm.ac.id/" target="_blank">
+                      <img class="footer-img" src="../images/logo-ugm.png" alt="">
+                    </a>
+                    <a href="http://kmteti.ft.ugm.ac.id/" target="_blank">
+                      <img class="footer-img" src="../images/logo-kmteti.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>            
             <div class="col-lg-4 col-md-4 col-sm-4 margin-footer">
               <div class="footer-widget">
                 <div class="footer-title">Our Contacts</div>
                 <ul class="contact-footer contact-composer">
-                  <li><i class="pe-7s-home"></i> <span>Jalan Grafika No. 2 Yogyakarta 55281</span></li>
+                  <li><i class="pe-7s-home"></i> <span>Jalan Grafika No. 2 Yogyakarta</span></li>
                   <li><i class="pe-7s-call"></i> <span>085643xxxxxx (Adisakti Wibowo)</span></li>
                   <li><i class="pe-7s-mail"></i> <span>support@technocornerugm.com</span></li>
                 </ul>
@@ -406,14 +429,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4" id="flickr">
-              <div class="footer-widget">
-                <div class="footer-title">Instagram</div>
-                <div class="flickr_widget_wrapper">
-                  <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a7a014647bda56258d46ba5aa31907d3.html" id="lightwidget_a7a014647b" name="lightwidget_a7a014647b"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -428,17 +444,17 @@
               <div class="jcarousel">
                 <ul>
                   <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
-                  <li><a ><img src="../images/client-1.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-1.jpg" alt=""></a></li>
                   <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
-                  <li><a ><img src="../images/client-5.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-5.jpg" alt=""></a></li>
                   <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
-                  <li><a ><img src="../images/client-4.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-4.jpg" alt=""></a></li>
                   <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
-                  <li><a ><img src="../images/client-2.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-2.jpg" alt=""></a></li>
                   <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
-                  <li><a ><img src="../images/client-5.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-5.jpg" alt=""></a></li>
                   <li><a ><img src="http://www.technocornerugm.com/img/comingsoon/DaiServer-Whites.png" alt=""></a></li>
-                  <li><a ><img src="../images/client-4.jpg" alt=""></a></li>
+                  <li><a ><img src="images/client-4.jpg" alt=""></a></li>
                 </ul>
               </div>
             </div>
@@ -476,9 +492,11 @@
                 </li>
                 <li><a href="https://www.twitter.com/TechnocornerUGM" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
                 </li>
-                <li><a href="https://line.me/R/ti/p/%40kdo2899c" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
+                <li><a href="https://line.me/R/ti/p/%40kdo2899c" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="LINE"><img src="../images/line.png" class="sos-icon"></i></a>
                 </li>
                 <li><a href="https://www.instagram.com/technocornerugm/" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Instagram"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li><a href="http://ask.fm/TechnocornerUGM/" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Ask.fm"><img src="../images/askfm.png" class="sos-icon"></a>
                 </li>
               </ul> <!-- ./social icons end -->
               <div class="right copyright">
@@ -498,18 +516,18 @@
   <!-- JavaScripts -->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!-- <script type="text/javascript" src="assets/libs/jquery/jquery.js"></script> -->
-  <script src="../assets/libs/jquery/jquery.easings.min.js"></script>
+  <!-- <script src="../assets/libs/jquery/jquery.easings.min.js"></script> -->
   <script src="../assets/libs/jquery/jquery.slimscroll.min.js"></script>
-  <script src="../assets/libs/jquery/jquery.mousewheel.js"></script>
-  <script src="../assets/libs/jquery/jquery.mousewheel.min.js"></script>
+  <!-- <script src="../assets/libs/jquery/jquery.mousewheel.js"></script> -->
+  <!-- <script src="../assets/libs/jquery/jquery.mousewheel.min.js"></script> -->
   <script src="../assets/libs/jquery.fullpage/jquery.fullPage.js"></script>
 
   <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
   <!-- bug jquery.min.js 1.11.2 membuat mousewheel not working -->
   <!-- <script src="assets/js/index.js"></script> -->
-  <script src="../assets/js/jquery.easing.1.3.js"></script>
+  <!-- <script src="../assets/js/jquery.easing.1.3.js"></script> -->
   <script src="../assets/js/detectmobilebrowser.js"></script>
-  <script src="../assets/js/isotope.pkgd.min.js"></script>
+  <!-- <script src="../assets/js/isotope.pkgd.min.js"></script> -->
   <script src="../assets/js/wow.min.js"></script>
   <script src="../assets/js/waypoints.js"></script>
   <script src="../assets/js/jquery.counterup.min.js"></script>
@@ -523,14 +541,12 @@
   <script type="text/javascript" src="../assets/js/jcarousel.responsive.js"></script>
   <script type="text/javascript" src="../assets/js/jquery.jcarousel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
-  <!-- <script type="text/javascript" src="assets/js/bootstrap.min.js"></script> -->
+  <!-- <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script> -->
   <script src="../assets/js/common.js"></script>
   <script src="../assets/js/main.js"></script>
   <script src="../assets/libs/jquery-address/src/jquery.address.js"></script>
-  <!-- <script src="../assets/libs/jquery.jscrollpane/script/jquery.jscrollpane.min.js"></script> -->
-<!--   <script src="../assets/libs/fragmented-mesh-js/RequestAnimationFrame.js"></script>
-  <script src="../assets/libs/fragmented-mesh-js/ThreeWebGL.js"></script>
-  <script src="../assets/libs/fragmented-mesh-js/fragments.js"></script> -->
+  <script type="text/javascript" src="../assets/js/jquery.flexslider-min.js"></script>
+
   <script type="text/javascript">
     $('.tabmenu .item')
     .tab({
@@ -551,10 +567,7 @@
         }
   </script>
   <script type="text/javascript">
-    $(document).ready(function()
-    {
     var action = 1;
-
         $('.event-expand').click(function()
         {
         if ( action == 1 ) {
@@ -565,11 +578,19 @@
                 action = 1;
             }
         });
-
-
-        });
   </script>
 
+      <script type="text/javascript">
+        $(window).load(function(){
+          $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: false,
+            start: function(slider){
+              $('body').removeClass('loading');
+            }
+          });
+        });
+      </script>
 </body>
 
 </html>
