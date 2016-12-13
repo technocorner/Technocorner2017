@@ -365,7 +365,7 @@ section.brand-bg .title {
 }
 
 .inline-menu li a {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -1551,7 +1551,7 @@ span.num {
 
 .social-icons li a {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .social-icons li a.facebook:hover {

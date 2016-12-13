@@ -29,7 +29,7 @@
 .submenu-list {
     display: none;
     padding: 0;
-    background-color: rgba(19, 19, 19, 0.65);
+    background-color: rgba(19, 19, 19, 0.90);
     position: absolute;
     margin: 0em 0 0 0em;
     padding: 0 11px 0 11px;
@@ -312,7 +312,7 @@ canvas {
 }
 .margin-footer{
     display: table;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .wrapper {
     margin: 0 auto;
@@ -816,7 +816,7 @@ background-color: #5AC8FB;
     margin-bottom: 40px;
 }
 .sos-icon{
-    max-height: 16px;
+    max-height: 22px;
     margin-bottom: -1px;
 
 }
@@ -988,6 +988,10 @@ bottom: -12px;
         font-size: 17px;
         line-height: 1.4;
     }
+        .footer-wrap {
+        padding: 33px 0;
+        background-color: #404040;
+    }
 
 }
 
@@ -1134,7 +1138,7 @@ bottom: -12px;
     /*background-color: : rgba(33, 33, 37, 0.65);*/
 }
 .sponsors-bg{
-    background-color: rgb(51, 51, 51);
+    background-color: rgba(33, 33, 37, 0.90);
 }
 /*End sponsors*/
 .marg10{

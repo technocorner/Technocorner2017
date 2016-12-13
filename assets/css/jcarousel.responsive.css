@@ -28,10 +28,12 @@
 }
 
 .jcarousel img {
-    display: table;
+    display: inline-block;
     margin:auto;
     max-width: 100%;
     height: auto !important;
+    vertical-align: middle;
+    text-align: center;
 
 }
 
