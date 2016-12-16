@@ -340,7 +340,7 @@ body {
     font-weight: 700;
     color: #fff !important;
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .regular-text {
@@ -643,7 +643,7 @@ header.nav.hide-menu {
  ----------------------------------- */
 
 .about-inner {
-    margin: 60px 0;
+    margin: 0 0 60px;
 }
 
 .person-about .title {
@@ -974,8 +974,10 @@ header.nav.hide-menu {
 
 .portfolio-top .title {
     color: #fff;
-    padding-top: 20px;
+    margin-top: 11px;
+    padding-top: 18px;
     text-align: center;
+    border-top: 11px solid #dfb534;
 }
 
 .portfolio-category {

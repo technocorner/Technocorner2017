@@ -59,6 +59,37 @@ nav a, nav a:link, nav a:visited {
 }
 /*End Header*/
 
+/*Section Header*/
+.color-line2 {
+    background: #1e4f81;
+    /*margin-bottom: -50px;*/
+    color: #fff;
+    /*padding: 30px 0;*/
+    /*margin-top: 75px;*/
+    transition: 0.25s all linear;
+    border-bottom: 1px solid #1e4f81;
+}
+.color-line-text {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+.color-line-button {
+    line-height: 42px;
+}
+.color-line-button a {
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+.color-line2:hover {
+    background: rgba(33, 33, 37, 0.42);
+    transition: 0.25s all linear;
+}
+
+/*End Section Header*/
+
 /*Home Section*/
 .pure-g {
     margin-bottom: 5%;
@@ -275,7 +306,7 @@ canvas {
     background-size: cover;
 }
 .section .pure-g {
-    padding: 8em 1em 1em 2em;
+    padding: 3em 1em 1em 2em;
 }
 
 /*END Event Slider*/
@@ -886,6 +917,7 @@ bottom: -12px;
         height: auto !important;
         /*padding-bottom: 56px;*/
         margin-left: 0;
+        padding-top: 0;
     }
 
     .pure-g {
