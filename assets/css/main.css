@@ -229,6 +229,9 @@ canvas {
     color: white;
     text-decoration: none;
 }
+.see-button:hover {
+    background-color: #1e4f81;
+}
 
 .jspVerticalBar
 {
@@ -1189,6 +1192,7 @@ bottom: -12px;
 }
 .sponsors-text{
     font-size: 20px;
+    padding-bottom: 5px;
 }
 
 /*Pages*/
