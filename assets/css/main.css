@@ -918,6 +918,7 @@ bottom: -12px;
         /*padding-bottom: 56px;*/
         margin-left: 0;
         padding-top: 0;
+        margin-bottom: -50px;
     }
 
     .pure-g {
@@ -1158,7 +1159,7 @@ bottom: -12px;
         display: block;
     }
     .section .pure-g {
-        padding: 7em 1em 1em;
+        padding: 2em 1em 1em;
     }
 
 }
