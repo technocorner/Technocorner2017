@@ -187,7 +187,7 @@ TOC :
     }
 
     .portfolio-top {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         padding-bottom: 15px;
     }
 
@@ -255,6 +255,13 @@ TOC :
     .title {
         font-size: 36px;
         line-height: 1.1;
+    }
+    .title-spn {
+        font-size: 26px;
+        line-height: 1.1;
+    }
+    img.sponsors-img {
+        max-height: 70px;
     }
 
     .modal .title {
@@ -375,7 +382,12 @@ TOC :
     .title {
         font-size: 32px;
     }
-
+    .title-spn {
+        font-size: 22px;
+    }
+    img.sponsors-img {
+        max-height: 50px;
+    }
     .static-menu form {
         width: 170px;
     }

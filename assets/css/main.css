@@ -315,6 +315,23 @@ canvas {
 /*END Event Slider*/
 
 
+.portfolio-top .title-spn {
+    color: #fff;
+    margin-top: 11px;
+    padding-top: 18px;
+    text-align: center;
+    border-top: 11px solid #dfb534;
+}.title-spn {
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+img.sponsors-img {
+    max-height: 100px;
+}
 
 /*CSS Footer*/
 .color-line {

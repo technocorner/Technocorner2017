@@ -6,23 +6,22 @@ h3 {
     border-style: outset;
 }h4 {
     font-size: 1.62rem;
-    line-height: 2.508rem;
-    margin: 1.14rem 0 0.912rem 0;
+    line-height: 1.3rem;
+    margin: 1.14rem 0 0.7rem 0;
 }p {
     line-height: 25px;
-    font-size: 15px;
+    font-size: 17px;
     /*font-weight: 300;*/
 }strong, b {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 900;
 }
 ol>li {
-    padding-bottom: 4px;
+    padding-bottom: 6px;
 }
 ol>ul>li{
-    /*padding-left: 1em;*/
     list-style: disc;
-    line-height: 20px;
+    padding-bottom: 4px;
 } i{
     font-style: italic;
 }
@@ -37,6 +36,27 @@ ol {
 }
 ol>ul {
     padding-left: 1em;
+}
+table.gridtable {
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    width: 70%;
+}
+table.gridtable th {
+    color:#333333;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    /*background-color: #ffffff;*/
 }
 .ui.segment[class*="bottom attached"] {
     bottom: 0;
@@ -174,6 +194,9 @@ header.major:after {
     .color-line-button2{
         line-height: 50px;
         margin-left: 0px;
+    }
+    table.gridtable {
+        width: 100%;
     }
 
 }
