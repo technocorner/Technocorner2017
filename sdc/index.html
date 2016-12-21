@@ -213,8 +213,8 @@
         </table>
 
         <h3>Fasilitas Peserta</h3>
-        <p>Seminar kit, snack, makan siang, e-sertifikat (peserta)<br>
-           Sertifikat (finalis)</p>
+        <p>e-sertifikat (peserta)<br>
+           Seminar kit, snack, makan siang, sertifikat (finalis)</p>
            
         <h3>Contact Person</h3>
         <p>Rayyan<br>
@@ -458,7 +458,7 @@
       <h3>Video Bumper</h3>
         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
             <div class="color-line-button2">
-              <a href="" target="_blank">
+              <a href="../download/Technocorner 2017 - Video Bumper SDC.mp4" target="_blank">
                 Download
               </a>
             </div>
@@ -590,7 +590,7 @@
                 <div class="footer-title">Our Contacts</div>
                 <ul class="contact-footer contact-composer">
                   <li><i class="pe-7s-home"></i> <span>Jalan Grafika No. 2 Yogyakarta</span></li>
-                  <li><i class="pe-7s-call"></i> <span>085643xxxxxx (Adisakti Wibowo)</span></li>
+                  <li><i class="pe-7s-call"></i> <span>085743055900 (Adisakti Wibowo)</span></li>
                   <li><i class="pe-7s-mail"></i> <span>support@technocornerugm.com</span></li>
                 </ul>
               </div>
@@ -718,17 +718,47 @@
         });
   </script>
 
-      <script type="text/javascript">
-        $(window).load(function(){
-          $('.flexslider').flexslider({
-            animation: "slide",
-            controlNav: false,
-            start: function(slider){
-              $('body').removeClass('loading');
-            }
-          });
-        });
-      </script>
+  <script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+      $(window).load(function() {
+        $(".active").removeClass('active');
+          if(document.URL.indexOf("deskripsi") != -1) 
+          {
+            $("[data-tab='deskripsi']").addClass('active');
+          }
+          else if(document.URL.indexOf("juknis") != -1) 
+          {
+            $("[data-tab='juknis']").addClass('active');
+          }
+          else if(document.URL.indexOf("pendaftaran") != -1) 
+          {
+            $("[data-tab='pendaftaran']").addClass('active');
+          }
+          else if(document.URL.indexOf("download") != -1) 
+          {
+            $("[data-tab='download']").addClass('active');
+          }
+          else if(document.URL.indexOf("faq") != -1) 
+          {
+            $("[data-tab='faq']").addClass('active');
+          }
+          else 
+          {
+            $("[data-tab='deskripsi']").addClass('active');
+          }
+      });
+  </script>
 </body>
 
 </html>

@@ -95,7 +95,7 @@
 
                     <li><a href=".." class="menu-nav"><i class="fa fa-home fa-fw"></i>Home</a>
                     </li>
-                    <li><a href="../#about" data-section="#about" class="menu-smooth-scroll menu-nav"><i class="fa fa-newspaper-o fa-fw"></i>NEWS</a>
+                    <li><a href="../#about" data-section="#about" class="menu-smooth-scroll menu-nav"><i class="fa fa-newspaper-o fa-fw"></i>News</a>
                     </li>
                     <li><a href="../#event" id="event-hover" data-section="#event" class="event-item menu-nav menu-smooth-scroll"><i class="fa fa-gamepad fa-fw"></i>Event <a class="tombol-event"><i class="event-expand fa fa-bars fa-fw"></i></a></a>
                       <ul class="submenu-list subevent" id="event-list">
@@ -236,7 +236,7 @@
                 <div class="footer-title">Our Contacts</div>
                 <ul class="contact-footer contact-composer">
                   <li><i class="pe-7s-home"></i> <span>Jalan Grafika No. 2 Yogyakarta</span></li>
-                  <li><i class="pe-7s-call"></i> <span>085643xxxxxx (Adisakti Wibowo)</span></li>
+                  <li><i class="pe-7s-call"></i> <span>085743055900 (Adisakti Wibowo)</span></li>
                   <li><i class="pe-7s-mail"></i> <span>support@technocornerugm.com</span></li>
                 </ul>
               </div>
@@ -364,17 +364,47 @@
         });
   </script>
 
-      <script type="text/javascript">
-        $(window).load(function(){
-          $('.flexslider').flexslider({
-            animation: "slide",
-            controlNav: false,
-            start: function(slider){
-              $('body').removeClass('loading');
-            }
-          });
-        });
-      </script>
+  <script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+      $(window).load(function() {
+        $(".active").removeClass('active');
+          if(document.URL.indexOf("deskripsi") != -1) 
+          {
+            $("[data-tab='deskripsi']").addClass('active');
+          }
+          else if(document.URL.indexOf("juknis") != -1) 
+          {
+            $("[data-tab='juknis']").addClass('active');
+          }
+          else if(document.URL.indexOf("pendaftaran") != -1) 
+          {
+            $("[data-tab='pendaftaran']").addClass('active');
+          }
+          else if(document.URL.indexOf("download") != -1) 
+          {
+            $("[data-tab='download']").addClass('active');
+          }
+          else if(document.URL.indexOf("faq") != -1) 
+          {
+            $("[data-tab='faq']").addClass('active');
+          }
+          else 
+          {
+            $("[data-tab='deskripsi']").addClass('active');
+          }
+      });
+  </script>
 </body>
 
 </html>

@@ -173,11 +173,7 @@
       <a class="item" data-tab="faq">FAQ</a>
     </div>
     <div class="ui bottom attached tab segment active" data-tab="deskripsi">
-        <p>Electrical Engineering Competition merupakan sebuah kompetisi di bidang matematika, fisika dan  komputer bagi pelajar SMA sederajat. Format kompetisi ini beregu. Tiap regu terdiri dari 3 orang siswa SMA/sederajat se-Indonesia. Kompetisi ini dibagi menjadi 2 tahap, yaitu Babak Penyisihan yang dilaksanakan secara online dan Babak Semifinal. Setelah Babak Penyisihan dilaksanakan 20 regu terbaik akan berkompetisi di babak semifinal yang terdiri dari babak ujian tulis dan babak praktikum di Gedung Balai Sintha Mandala Bakti Wanitatama. Kemudian, dipilih 5 regu terbaik untuk mengikuti babak grandfinal. Format babak grandfinal EEC 2017 terdiri dari : <br>
-        Plan A: Cerdas Cermat  3 Babak, Studi Kasus 1 Babak.<br>
-        Plan B: Cerdas Cermat 4 Babak<br>
-        Plan C: Studi Kasus Semua 5 Tim.<br>
-        Plan D :  Studi Kasus 2 Babak, Cerdas Cermat 3 Babak</p>
+        <p>Electrical Engineering Competition merupakan sebuah kompetisi di bidang matematika, fisika dan  komputer bagi pelajar SMA sederajat. Format kompetisi ini beregu. Tiap regu terdiri dari 3 orang siswa SMA/sederajat se-Indonesia. Kompetisi ini dibagi menjadi 2 tahap, yaitu Babak Penyisihan yang dilaksanakan secara online dan Babak Semifinal. Setelah Babak Penyisihan dilaksanakan 20 regu terbaik akan berkompetisi di babak semifinal yang terdiri dari babak ujian tulis dan babak praktikum di Gedung Balai Sintha Mandala Bakti Wanitatama. Kemudian, dipilih 5 regu terbaik untuk mengikuti babak grandfinal.</p>
         <h3>Sasaran Peserta Kegiatan</h3>
         <p>Regu yang terdiri dari 3 siswa/i SMA/sederajat se-Indonesia</p>
         <h3>Waktu dan Tempat Pelaksanaan Lomba</h3>
@@ -357,7 +353,7 @@
       <!-- <h3>Kisi Electrical Engineering Competition 2017</h3>
         <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
             <div class="color-line-button2">
-              <a href="#" target="_blank">
+              <a href="../download/Petunjuk Teknis EEC 2017.pdf" target="_blank">
                 Download
               </a>
             </div>
@@ -511,7 +507,7 @@
                 <div class="footer-title">Our Contacts</div>
                 <ul class="contact-footer contact-composer">
                   <li><i class="pe-7s-home"></i> <span>Jalan Grafika No. 2 Yogyakarta</span></li>
-                  <li><i class="pe-7s-call"></i> <span>085643xxxxxx (Adisakti Wibowo)</span></li>
+                  <li><i class="pe-7s-call"></i> <span>085743055900 (Adisakti Wibowo)</span></li>
                   <li><i class="pe-7s-mail"></i> <span>support@technocornerugm.com</span></li>
                 </ul>
               </div>
@@ -639,17 +635,47 @@
         });
   </script>
 
-      <script type="text/javascript">
-        $(window).load(function(){
-          $('.flexslider').flexslider({
-            animation: "slide",
-            controlNav: false,
-            start: function(slider){
-              $('body').removeClass('loading');
-            }
-          });
-        });
-      </script>
+  <script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+      $(window).load(function() {
+        $(".active").removeClass('active');
+          if(document.URL.indexOf("deskripsi") != -1) 
+          {
+            $("[data-tab='deskripsi']").addClass('active');
+          }
+          else if(document.URL.indexOf("juknis") != -1) 
+          {
+            $("[data-tab='juknis']").addClass('active');
+          }
+          else if(document.URL.indexOf("pendaftaran") != -1) 
+          {
+            $("[data-tab='pendaftaran']").addClass('active');
+          }
+          else if(document.URL.indexOf("download") != -1) 
+          {
+            $("[data-tab='download']").addClass('active');
+          }
+          else if(document.URL.indexOf("faq") != -1) 
+          {
+            $("[data-tab='faq']").addClass('active');
+          }
+          else 
+          {
+            $("[data-tab='deskripsi']").addClass('active');
+          }
+      });
+  </script>
 </body>
 
 </html>
